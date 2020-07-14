@@ -43,7 +43,7 @@ class Posts extends Component {
 
     render() {
 
-        let posts = <p style={{ testAlign: 'center'  }}> Something Went Wrong!</p>
+        let posts = <p style={{ textAlign: 'center'  }}> Something Went Wrong!</p>
         if (!this.state.error) {
             posts = this.state.posts.map(post => {
                 return (
